@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+  <!-- 1Flow Tracking Script -->
+<script>
+const apiKey = 'oneflow_prod_L1WKjAqO4iVv8sxGa8WjkrEyIl67Qsx/Y87E7hDjoSRjwwbu6ofBB7K3ZcMHbdyf+r/hyNHFmrq1RTO/Y6LMqQ=='; // TODO: replace this with your api key
+(function(w,o,s,t,k,a,r){
+    w._1flow= function (e,d,v){ s(function(){w._1flow(e,d,(!v)?{}:v)},5)},
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.setAttribute('data-api-key',k)
+    r.src=t;
+    a.appendChild(r);
+})(window,document,setTimeout,'https://1flow.app/js/1flow.js', apiKey);
+</script>
+<!-- End of 1Flow Tracking Script -->
+</head>
+<body>
+    <header style="background-color: #f8f9fa; text-align: center; padding: 20px;">
+        <h1 style="color: #0d6efd;">Welcome to My Website</h1>
+    </header>
+    
+    <main style="padding: 20px;">
+        <p style="color: #212529; font-size: 16px;">
+            This is a simple HTML page with inline CSS styling. Inline CSS is convenient for quick styling of individual elements but can lead to more complicated maintenance in larger projects.
+        </p>
+    </main>
+
+    <footer style="background-color: #343a40; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%;">
+        <p>Copyright © 2024</p>
+    </footer>
+</body>
+</html>
